@@ -1,9 +1,9 @@
-import Header from "../../components/Header/header"; // Caminho para o Header
+import Header from "../../components/Header/header";
 
 const Oferta = () => {
   return (
     <>
-      <div className="relative bg-blue-600 text-white h-screen flex flex-col justify-center items-center overflow-hidden">
+      <div className="relative text-white h-screen flex flex-col justify-center items-center overflow-hidden" style={{background:"#0277EEE0"}}>
         <img
           src="./assets/background.png"
           alt="Background"
@@ -51,7 +51,7 @@ const Oferta = () => {
         </section>
       </div>
 
-      <section className="relative w-full py-48 bg-gray-100">
+      <section className="relative w-full py-48 bg-white">
         <div className="container mx-auto px-4 text-center">
           <div className="relative ">
             <img

@@ -1,4 +1,9 @@
-const Contact = () => {
+
+
+
+
+
+function Contact () {
   return (
     <section className="bg-[#F8F9FA] flex-col flex justify-center items-center lg: h-[366px]">
       <h1 className="font-bold text-3xl" style={{ color: "#1D79FB" }}>
@@ -9,8 +14,8 @@ const Contact = () => {
       </p>
 
       <button className="flex items-center gap-2 p-2 border border-[#1D79FB] bg-[#1D79FB] rounded-md w-[299px] h-[40px] text-white">
-        <FaWhatsapp className="text-xl" /> {/* Ícone do WhatsApp */}
-        <span>Enviar Mensagem</span> {/* Texto do botão */}
+        <FaWhatsapp className="text-xl" />
+        <span>Enviar Mensagem</span> 
       </button>
     </section>
   );

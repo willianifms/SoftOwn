@@ -194,53 +194,44 @@ const AgendaeProntuario = () => {
 
 const EliminaPapel = () => {
   return (
-    <section className="relative bg-[#1D79FB] z-0">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between max-w-full lg:gap-10">
-        
-        <div className="flex-1 pl-48 pr-24">
-          <h1 className="text-[#ffffff] font-montserrat font-bold text-[20px] lg:text-[24px] leading-[24px]">
+    <section className="relative bg-[#1D79FB] z-0 py-8">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between max-w-full px-4 lg:px-0 lg:gap-10">
+
+        <div className="flex-1 lg:pl-16 lg:pr-12">
+          <h1 className="text-[#ffffff] font-montserrat font-bold text-2xl lg:text-3xl leading-tight">
             Elimine Todos os Papéis do Seu Escritório
           </h1>
-          <ul className="mt-4 text-lg lg:text-1xl font-normal text-[#ffffff] list-none space-y-4">
-            
+          <ul className="mt-4 text-lg lg:text-xl font-normal text-[#ffffff] list-none space-y-4">
             <li className="flex items-start">
               <FaCheckCircle className="text-[#ffffff] mr-2 text-3xl" />
               <p className="leading-relaxed">
-                <span className="text-[#ffffff] font-semibold">
-                  Agilidade nos processos:{" "}
-                </span>
+                <span className="text-[#ffffff] font-semibold">Agilidade nos processos: </span>
                 A digitalização acelera a busca e o compartilhamento de informações.
               </p>
             </li>
-
             <li className="flex items-start">
-              <FaCheckCircle className="text-[#ffffff] mr-2 -mt-1 text-4xl" />
+              <FaCheckCircle className="text-[#ffffff] mr-2 text-3xl" />
               <p className="leading-relaxed">
-                <span className="text-[#ffffff] font-semibold">
-                  Automatização de tarefas:{" "}
-                </span>
+                <span className="text-[#ffffff] font-semibold">Automatização de tarefas: </span>
                 Redução do trabalho manual com a digitalização de documentos e assinatura eletrônica.
               </p>
             </li>
-
             <li className="flex items-start">
-              <FaCheckCircle className="text-[#ffffff] mr-2 -mt-2 text-5xl" />
+              <FaCheckCircle className="text-[#ffffff] mr-2 text-3xl" />
               <p className="leading-relaxed">
-                <span className="text-[#ffffff] font-semibold">
-                  Melhoria na colaboração:{" "}
-                </span>
+                <span className="text-[#ffffff] font-semibold">Melhoria na colaboração: </span>
                 Facilidade para equipes trabalharem em conjunto em documentos digitais, independentemente da localização.
               </p>
             </li>
           </ul>
         </div>
 
-        <div className="flex-none w-full lg:w-2/5">
-          <figure className="flex items-center">
+        <div className="flex-none w-full lg:w-2/5 mt-8 lg:mt-0 md:none">
+          <figure className="flex items-center justify-center relative">
             <img
               src="./assets/ilustration.png"
               alt="Ilustração de uma pessoa"
-              className="w-2/6 absolute"
+              className="w-2/3 lg:w-3/4 z-10"
             />
             <img
               src="./assets/sixty-decoration.png"
@@ -253,6 +244,8 @@ const EliminaPapel = () => {
     </section>
   );
 };
+
+
 
 const Benefits = () => {
   return (

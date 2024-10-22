@@ -3,15 +3,15 @@ import { FaRegStar } from "react-icons/fa";
 
 const Precing = () => {
   return (
-    <section className="bg-[#F8F9FA] flex flex-col justify-center items-center h-[666px]">
+    <section className="bg-[#F8F9FA] flex flex-col justify-center items-center py-10">
       <h1 className="font-bold text-3xl text-[#1D79FB]">Nossos planos</h1>
-      <p className="text-2xl text-[#6B7280]">
+      <p className="text-2xl text-[#6B7280] text-center max-w-2xl">
         Encontre o melhor plano de acordo com a necessidade do seu escritório.
       </p>
 
-      <div className="flex flex-row justify-center mt-12 items-center gap-8 w-[1100px] h-[433px]">
+      <div className="flex flex-wrap justify-center mt-12 items-center gap-8 max-w-[1100px] w-full">
         {/* Card Inicial */}
-        <div className="flex flex-col p-4 border border-gray-300 rounded-lg shadow-md w-[333px]">
+        <div className="flex flex-col p-4 border border-gray-300 rounded-lg shadow-md w-full sm:w-[333px]">
           <h2 className="text-xl font-bold text-center text-[#1D79FB]">Inicial</h2>
           <p className="mt-2 text-center text-[#6B7280]">
             Lorem ipsum dolor sit amet,
@@ -43,7 +43,7 @@ const Precing = () => {
         </div>
 
         {/* Card Intermediário */}
-        <div className="relative flex flex-col p-4 border border-gray-300 rounded-lg shadow-md w-[333px]">
+        <div className="relative flex flex-col p-4 border border-gray-300 rounded-lg shadow-md w-full sm:w-[333px]">
           {/* Div Mais Popular */}
           <div className="absolute top-[-15px] left-1/2 transform -translate-x-1/2 bg-[#26B99A] rounded-md flex justify-center items-center h-[30px] w-[193px]">
             <p className="flex flex-row text-[#ffffff] text-center items-center">
@@ -81,7 +81,7 @@ const Precing = () => {
         </div>
 
         {/* Card Completo */}
-        <div className="flex flex-col p-4 border border-gray-300 rounded-lg shadow-md w-[333px]">
+        <div className="flex flex-col p-4 border border-gray-300 rounded-lg shadow-md w-full sm:w-[333px]">
           <h2 className="text-xl font-bold text-center text-[#1D79FB]">Completo</h2>
           <p className="mt-2 text-center text-[#6B7280]">
             Lorem ipsum dolor sit amet,

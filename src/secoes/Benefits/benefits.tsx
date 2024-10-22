@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaCheckCircle } from "react-icons/fa"; // Pacote de ícones para o ícone de check
 
 const FocoOtimiza = () => {

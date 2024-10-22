@@ -3,11 +3,11 @@ import Header from "../../components/Header/header";
 const Oferta = () => {
   return (
     <>
-      <div className="relative text-white h-screen flex flex-col justify-center items-center overflow-hidden" style={{background:"#0277EEE0"}}>
+      <div className="relative text-white  flex flex-col justify-center h-[90vh] items-center overflow-hidden" style={{background:"#0277EEE0"}}>
         <img
           src="./assets/background.png"
           alt="Background"
-          className="absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+          className="absolute inset-0 w-full h-5/6 object-cover opacity-20 z-0"
         />
 
         <img
@@ -18,7 +18,7 @@ const Oferta = () => {
         <img
           src="./assets/dot.png"
           alt="Dot Decoration"
-          className="absolute bottom-0 left-0 opacity-100 z-0"
+          className="absolute bottom-0 left-20 opacity-100 z-0"
         />
 
         <Header />
@@ -41,10 +41,10 @@ const Oferta = () => {
           </div>
 
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-blue-600 font-semibold py-2 px-8 rounded-md hover:bg-gray-100 transition duration-300">
+            <button className="bg-white text-blue-600 font-semibold py-2 text-lg px-8 rounded-md hover:bg-gray-100 transition duration-300">
               Conheça nossa ferramenta
             </button>
-            <button className="bg-transparent border border-white text-white font-semibold py-2 px-8 rounded-md hover:bg-white hover:text-blue-600 transition duration-300">
+            <button className="bg-transparent border border-white text-lg text-white font-semibold py-2 px-8 rounded-md hover:bg-white hover:text-blue-600 transition duration-300">
               Conheça nossos planos
             </button>
           </div>
@@ -58,7 +58,7 @@ const Oferta = () => {
               src="./assets/first.png"
               alt="Exemplo de Solução"
               className="mx-auto w-full max-w-4xl relative"
-              style={{ marginTop: "-20%" }}
+              style={{ marginTop: "-18%" }}
             />
           </div>
         </div>

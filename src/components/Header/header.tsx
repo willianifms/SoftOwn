@@ -6,8 +6,8 @@ const Header = () => {
         <figure>
           <img src="./assets/Logo white.png" alt="Logo SoftOwn" className="w-40 lg:w-64" />
         </figure>
-        <button className="bg-white text-blue-500 font-semibold py-2 px-4 lg:px-8 rounded-md hover:bg-gray-100 transition duration-300">
-          Acessar o Sistema
+        <button className="bg-white text-blue-500 font-semibold py-2 text-1xl px-4 lg:px-8 rounded-md hover:bg-gray-100 transition duration-300">
+          Acessar o <span className="font-extrabold"> Sistema</span>
         </button>
       </div>
     </header>

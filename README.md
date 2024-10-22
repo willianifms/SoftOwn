@@ -1,3 +1,11 @@
+## olá Meu nome é Willian Henrique Cardoso dos santos e minhas redes Sociais 
+- Portifolio: https://repo-pessoalteste-aq867r40m-willianifms-projects.vercel.app/ (em desenvolvimento)
+- Linkedin: https://www.linkedin.com/in/willian-cardoso-40a308253/
+- Email: williancardoso00004@gmail.com
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
